@@ -709,6 +709,7 @@ exe "hi! vimSynType"     . s:fg_cyan   .s:bg_none   .s:fmt_none
 exe "hi! vimHiLink"      . s:fg_blue   .s:bg_none   .s:fmt_none
 exe "hi! vimHiGroup"     . s:fg_blue   .s:bg_none   .s:fmt_none
 exe "hi! vimGroup"       . s:fg_blue   .s:bg_none   .s:fmt_undb
+
 "}}}
 " html highlighting "{{{
 " ---------------------------------------------------------------------
@@ -719,6 +720,12 @@ exe "hi! htmlTagName"    . s:fg_blue   .s:bg_none   .s:fmt_bold
 exe "hi! htmlSpecialTagName". s:fg_blue  .s:bg_none .s:fmt_ital
 exe "hi! htmlArg"        . s:fg_base00 .s:bg_none   .s:fmt_none
 exe "hi! javaScript"     . s:fg_yellow .s:bg_none   .s:fmt_none
+
+"}}}
+" clojure highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! clojureParen0"  . s:fg_base01 .s:bg_none   .s:fmt_none
+
 "}}}
 " perl highlighting "{{{
 " ---------------------------------------------------------------------
@@ -734,6 +741,7 @@ exe "hi! texMathZoneX"   . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! texMathMatcher" . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! texMathMatcher" . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! texRefLabel"    . s:fg_yellow .s:bg_back   .s:fmt_none
+
 "}}}
 " ruby highlighting "{{{
 " ---------------------------------------------------------------------
