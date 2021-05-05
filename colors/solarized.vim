@@ -433,10 +433,10 @@ endif
 " Optional contrast schemes "{{{
 " ---------------------------------------------------------------------
 if g:solarized_contrast == "high"
-    let s:base01      = "244"
-    let s:base00      = "245"
-    let s:base0       = "247"
-    let s:base1       = "248"
+    let s:base01      = "242"
+    let s:base00      = "243"
+    let s:base0       = "246"
+    let s:base1       = "247"
     let s:base2       = s:base3
     let s:back        = s:back
 endif
