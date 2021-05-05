@@ -1,4 +1,4 @@
-vim-colors-solarized
-====================
+vim-solarized-adjusted
+======================
 
-mirror of the vim colors from http://ethanschoonover.com/solarized
+Solarized, but with a better high-contrast version
